@@ -1,0 +1,13 @@
+{
+  "name": "traini",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static gym plan generator. The site needs no build step; this file is only for the tests.",
+  "scripts": {
+    "test": "node tests/plan.test.js && node tests/ui.test.js",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
